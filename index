@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Custom Web App</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevents double scrollbars */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Replace the URL below with your Google Script Web App URL -->
+    <iframe src="https://script.google.com/macros/s/AKfycbxaAPS9Gzf_vxo0zTInJwrQY4civ-0H0GGqdH2Ko_4JfiSe9gNP_-t-51VeuXX-uTC1Yg/exec"></iframe>
+
+</body>
+</html>
